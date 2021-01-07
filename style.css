@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+}
+h1:hover{
+    color: rgb(236, 139, 12);
+    font-size: 40px;
+}
+
+#special-fruit:hover{
+    color: crimson;
+}
+
+p{
+    font-size: 40px;
+}
+
+input:focus{
+    font-size: 24px;
+    color: tomato;
+}
+
+ul{
+    font-size: 30px;
+}
+
+ul li:first-child{
+    color: teal;
+}
+ul li:last-child{
+    color: yellowgreen;
+}
+
+ul li:nth-child(2n){
+    color: blueviolet;
+}
+
+ol li{
+    font-style: italic;
+    font-size: 20px;
+}
+ol li:nth-child(2n-1){
+    color: brown;
+
+}
