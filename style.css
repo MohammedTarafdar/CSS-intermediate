@@ -36,9 +36,37 @@ ul li:nth-child(2n){
 
 ol li{
     font-style: italic;
-    font-size: 20px;
+    font-size: 24px;
 }
 ol li:nth-child(2n-1){
     color: brown;
 
+}
+
+a:link{
+    color: darkorchid;
+}
+a:visited{
+    color: darkgoldenrod;
+}
+h3:hfocus{
+    color: darkred;
+}
+h3:hover:focus{
+    color: lawngreen;
+}
+#focus-test:focus{
+    color: deeppink;
+}
+#link-focus-test:focus{
+    color: indigo;
+}
+section ul li::before{
+    content: "Hello ";
+    color: lightcoral;
+    font-size: 36px;
+}
+#pseudo-element ol li::after{
+    content: " Good Morning !";
+    color: lightseagreen;
 }
