@@ -1,0 +1,13 @@
+
+body {
+    /* Set a counter named 'section', and its initial value is 0. */
+    counter-reset: section;                       
+  }
+  
+  p::before {
+      /* Increment the value of section counter by 1 */
+    counter-increment: section;  
+    
+    /* Display the word 'Section ', the value of section counter, and a colon before the content of each h3 */
+    content: "Welcome " counter(section) ": ";    
+  }

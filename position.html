@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-position</title>
+
+    <style>
+        .container-one{
+            background-color: beige;
+            height: 300px;
+            width: 300px;
+        }
+        .container-one div{
+            width: 100px;
+            height: 100px;
+        }
+        #first{
+            color: white;
+            text-align: center;
+            background-color: brown;
+            position: relative;
+        }
+        #second{
+            color: white;
+            text-align: center;
+            background-color: blue;
+            position: relative;
+            left: 100px;
+        }
+        #third{
+            color: white;
+            text-align: center;
+            background-color: blueviolet;
+            position: relative;
+            left: 200px;
+        }
+        .container-Two{
+            background-color: lightgray;
+            height: 600px;
+            width: 600px;
+        }
+        .container-Two div{
+            width: 200px;
+            height: 200px;
+        }
+        #two-first{
+            color: white;
+            text-align: center;
+            background-color: brown;
+            position: relative;
+            left: 400px;
+        }
+        #two-second{
+            color: white;
+            text-align: center;
+            background-color: blue;
+            position: relative;
+            left: 200px;
+        }
+        #two-third{
+            color: white;
+            text-align: center;
+            background-color: blueviolet;
+            position: relative;
+        }
+        
+        .container-Three{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        #three-first{
+            color: white;
+            text-align: center;
+            background-color: brown;
+            position: absolute;
+        }
+        #three-second{
+            color: white;
+            text-align: center;
+            background-color: blue;
+            position: absolute;
+            left: 100px;
+        }
+        #three-third{
+            color: white;
+            text-align: center;
+            background-color: blueviolet;
+            position: absolute;
+            left: 200px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1>About CSS position</h1>
+    </section>
+    <section class="container-one">
+        <div id="first">first</div>
+        <div id="second">second</div>
+        <div id="third">third</div>
+    </section> <br>
+    <section class="container-Two">
+        <div id="two-first">first</div>
+        <div id="two-second">second</div>
+        <div id="two-third">third</div>
+    </section> <br>
+    <section class="container-three">
+        <div id="three-first">first</div>
+        <div id="three-second">second</div>
+        <div id="three-third">third</div>
+    </section>
+    
+    
+</body>
+
+</html>

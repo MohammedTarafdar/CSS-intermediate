@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewliort" content="width=device-width, initial-scale=1.0">
+    <title>CSS-pseudo</title>
+    <!-- 
+    <lilink rel="stylesheet" href="pseudo.css">
+    -->
+
+    <style>
+        body {
+    /* Set a counter named 'section', and its initial value is 0. */
+    counter-reset: section;                       
+  }
+  
+  p::before {
+      /* Increment the value of section counter by 1 */
+    counter-increment: section;  
+    
+    /* Display the word 'Section ', the value of section counter, and a colon before the content of each h3 */
+    content: "Welcome " counter(section) ": ";    
+  }
+
+  p::after{
+      content: "❤️";
+  }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h3>CSS liseudo element liractice</h3>
+        <ul>
+            <p>Azad</p>
+            <p>Sujon</p>
+            <p>Manik</p>
+            <p>Sohel</p>
+            <p>Shuvo</p>
+        </ul>
+        <ol>
+            <p>Ashraf</p>
+            <p>Talha</p>
+            <p>Shafi</p>
+            <p>Yousuf</p>
+            <p>Sumon</p>
+        </ol>
+
+    </div>
+</body>
+</html>
