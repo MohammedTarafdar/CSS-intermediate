@@ -1,0 +1,25 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: indigo;
+    border: 5px solid rgb(68, 67, 67);
+    color: white;
+    transition: background-color 3s ease 1s;
+}
+.box:hover{
+    background-color: violet;
+}
+
+.box-one{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 5px solid wheat;
+    color: white;
+    transition: width 2s ease-in 1s;
+    
+}
+.box-one:hover{
+    width: 1000px;
+    
+}
